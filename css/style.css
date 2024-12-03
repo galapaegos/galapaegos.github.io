@@ -1,0 +1,350 @@
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin: 0;
+	background-color: #cccccc;
+}
+
+.container{
+	width: 85%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/* header */
+header{
+	background: #a6a6a6;
+	color: #000000;
+	padding-top: 20px;
+	min-height: 70px;
+	border-bottom: #000000 3px solid;
+}
+
+header a{
+	float: center;
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: center;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding {
+	float: center;
+}
+
+header branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: center;
+	margin-top: 10px;
+}
+
+header .highlight, header .current a {
+	color: #99ccff;
+	font-weight: bold;
+}
+
+header a:hover {
+	font-weight: bold;
+}
+
+/* info */
+#info {
+	padding: 15px;
+	color: #121212;
+	background: #cccccc;
+	border-bottom: #000000 3px solid;
+}
+
+#info h1 {
+	min-width: 100px;
+	min-height: 100px;
+	background:url('../img/BradHittle_headshot.png') no-repeat center;
+	background-size: cover;
+	background: 888888;
+	text-align: center;
+	color: #121212;
+}
+
+#info p {
+	font-size: 15px;
+}
+
+/* projects */
+#tbone {
+	padding: 15px;
+	color: #121212;
+	background: 888888;
+}
+
+#tbone h1 {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	font-size: 35px;
+	min-width: 200px;
+	min-height: 200px;
+	background:url('../img/Tbone_headshot.png') no-repeat center;
+	background-size: cover;
+	background: 888888;
+	text-align: center;
+	color: #ffffff;
+	border-top: #000000 3px solid;
+	border-bottom: #000000 3px solid;
+}
+
+#tbone p {
+	font-size: 15px;
+}
+
+#voleditor {
+	padding: 15px;
+	color: #121212;
+	background: 888888;
+}
+
+#voleditor h1 {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	font-size: 35px;
+	min-width: 200px;
+	min-height: 200px;
+	background:url('../img/VolEditor_headshot.png') no-repeat center;
+	background-size: cover;
+	background: 888888;
+	text-align: center;
+	color: #ffffff;
+	border-top: #000000 3px solid;
+	border-bottom: #000000 3px solid;
+}
+
+#voleditor p {
+	font-size: 15px;
+}
+
+#goofit {
+	background: 888888;
+	padding: 15px;
+	color: #121212
+}
+
+#goofit h1 {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	font-size: 35px;
+	min-width: 200px;
+	min-height: 200px;
+	background:url('../img/GooFit_headshot.png') no-repeat center;
+	background-size: cover;
+	background: 888888;
+	text-align: center;
+	color: #ffffff;
+	border-top: #000000 3px solid;
+	border-bottom: #000000 3px solid;
+}
+
+#goofit p {
+	font-size: 15px;
+}
+
+#ive {
+	background: 888888;
+	padding: 15px;
+	color: #121212
+}
+
+#ive h1 {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	font-size: 35px;
+	min-width: 200px;
+	min-height: 200px;
+	background:url('../img/IVE_headshot.png') no-repeat center;
+	background-size: cover;
+	background: 888888;
+	text-align: center;
+	color: #ffffff;
+	border-top: #000000 3px solid;
+	border-bottom: #000000 3px solid;
+}
+
+#ive p {
+	font-size: 15px;
+}
+
+#pto {
+	background: 888888;
+	padding: 15px;
+	color: #121212
+}
+
+#pto h1 {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	font-size: 35px;
+	min-width: 200px;
+	min-height: 200px;
+	background:url('../img/PTO_headshot.png') no-repeat center;
+	background-size: cover;
+	background: 888888;
+	text-align: center;
+	color: #ffffff;
+	border-top: #000000 3px solid;
+	border-bottom: #000000 3px solid;
+}
+
+#pto p {
+	font-size: 15px;
+}
+
+#nasal {
+	background: 888888;
+	padding: 15px;
+	color: #121212
+}
+
+#nasal h1 {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	font-size: 35px;
+	min-width: 200px;
+	min-height: 200px;
+	background:url('../img/Nasal_headshot.png') no-repeat center;
+	background-size: cover;
+	background: 888888;
+	text-align: center;
+	color: #ffffff;
+	border-top: #000000 3px solid;
+	border-bottom: #000000 3px solid;
+}
+
+#nasal p {
+	font-size: 15px;
+}
+
+#mansionsvr {
+	background: 888888;
+	padding: 15px;
+	color: #121212
+}
+
+#mansionsvr h1 {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	font-size: 35px;
+	min-width: 200px;
+	min-height: 200px;
+	background:url('../img/MansionsVR_headshot.png') repeat center;
+	background-size: cover;
+	background: 888888;
+	text-align: center;
+	color: #ffffff;
+	border-top: #000000 3px solid;
+	border-bottom: #000000 3px solid;
+}
+
+#mansionsvr p {
+	font-size: 15px;
+}
+
+#cellx {
+	background: 888888;
+	padding: 15px;
+	color: #121212
+}
+
+#cellx h1 {
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+	font-size: 35px;
+	min-width: 200px;
+	min-height: 200px;
+	background:url('../img/CellX_headshot.png') no-repeat center;
+	background-size: cover;
+	background: 888888;
+	text-align: center;
+	color: #ffffff;
+	border-top: #000000 3px solid;
+	border-bottom: #000000 3px solid;
+}
+
+#cellx p {
+	font-size: 15px;
+}
+
+#experience {
+	background: #cccccc;
+	color: #ffffff;
+}
+
+#experience h1 {
+	background: #c;
+	text-align: center;
+	color: #121212;
+	border-top: #000000 3px solid;
+	border-bottom: #000000 3px solid;
+}
+
+#experience p {
+	font-size: 15px;
+	padding: 2px;
+	color: #000000;
+}
+
+/* publications */
+#publications {
+	background: 888888;
+	padding: 15px;
+	color: #ffffff;
+}
+
+#publications p {
+	background: 888888;
+	color: #121212;
+}
+
+#publications h1 {
+	background: 888888;
+	color: #121212;
+	font-size: 15px;
+}
+
+#contact {
+	background: 888888;
+	padding: 15px;
+	color: #121212;
+}
+
+#contact h1 {
+	background: 888888;
+	color: #121212;
+}
+
+#contact p {
+	background: 888888;
+	color: #121212;
+}
+
+@media(max-width: 768px) {
+	header #branding,
+	header nav,
+	header nav li,
+	#info h1,
+	#info form,
+	#boxes .box {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	
+	header {
+		padding-bottom: 5px;
+	}
+}
